@@ -12,5 +12,4 @@ server.listen(port, function(){
     console.log(`Executando em port: ${port}`);  
 });
 
-
-
+module.exports = server;
